@@ -12,9 +12,9 @@ Template requires specific metadata files and folder structure so that [Azure Fu
 
 - **Metadata.Json:** UI related metadata specific to each template is present here. For e.g. Template Name, category.
 
-- **Sample.dat:** Sample.dat contains sample input data for each template. The Run text box in the portal will be populated by the contents of the sample.dat file. The contents of this file is also used as input by the [test script](Test/TemplateTest.ps1). You can find more on information on how to running tests [here]()
+- **Sample.dat:** Sample.dat contains sample input data for each template. The Run text box in the portal will be populated by the contents of the sample.dat file. The contents of this file is also used as input by the [test script](Test/TemplateTest.ps1). Refer the [template wiki]() for more information on testing templates.
 
-- **TestOutput.json (optional):** This file is used by the [test script](Test/TemplateTest.ps1) to match the actual output with expected test output. If this file is present the template will be picked by the [test script](Test/TemplateTest.ps1) for test run. You can find more on information on how to running tests [here]()
+- **TestOutput.json (optional):** This file is used by the [test script](Test/TemplateTest.ps1) to match the actual output with expected test output. If this file is present the template will be picked by the [test script](Test/TemplateTest.ps1) for test run. Refer the [template wiki]() for more information on testing templates.
 
 - **Readme.md (optional):** The markdown file that presents basic information and description of the templates.
 
@@ -23,7 +23,8 @@ Template requires specific metadata files and folder structure so that [Azure Fu
 - [Script SDK](https://github.com/Azure/azure-webjobs-sdk-script/)
 - [Webjobs SDK Extensions](https://github.com/Azure/azure-webjobs-sdk-extensions)
 
-##Running the Tests 
+## Running the Tests 
+- Please refer the [wiki]() for information on testing templates with & without portal integration.
 
 ## Contribute Code or Provide Feedback
 If you would like to become an active contributor to this project please follow the instructions provided in [Microsoft Azure Projects Contribution Guidelines](http://azure.github.com/guidelines.html).
