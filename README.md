@@ -5,7 +5,7 @@ This repository contains the templates for the [Azure Functions Portal](https://
 ### Templates format
 Template requires specific metadata files and folder structure so that [Azure Functions Portal](https://functions.azure.com/signin) can understand and graphically present it.
 
-**Binding.Json**</br>
+**Binding.Json**
 This is a special file that is common for all templates located [here](Bindings/bindings.json). This file contains UI related metadata for all bindings types.
 
 ####Function.Json
