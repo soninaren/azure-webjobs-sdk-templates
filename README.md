@@ -14,6 +14,6 @@ Template requires specific metadata files and folder structure so that [Azure Fu
 
 **Sample.dat:** Sample.dat contains sample input data for each template. The Run text box in the portal will be populated by the contents of the sample.dat file. The contents of this file is also used as input by the [test script](Test/TemplateTest.ps1). You can find more on information on how to running tests [here]()
 
+**TestOutput.json (optional):** This file is used by the [test script](Test/TemplateTest.ps1) to match the actual output with expected test output. If this file is present the template will be picked by the [test script](Test/TemplateTest.ps1) for test run. You can find more on information on how to running tests [here]()
+
 **Readme.md (optional):** The markdown file that presents basic information and description of the templates.
-
-
