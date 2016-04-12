@@ -19,5 +19,6 @@ Template requires specific metadata files and folder structure so that [Azure Fu
 - **Readme.md (optional):** The markdown file that presents basic information and description of the templates.
 
 ## Related Github Repositories
-- [Portal](https://github.com/projectkudu/AzureFunctionsPortal)
+- [Azure Functions Portal](https://github.com/projectkudu/AzureFunctionsPortal)
 - [Script SDK](https://github.com/Azure/azure-webjobs-sdk-script/)
+- [Webjobs SDK Extensions](https://github.com/Azure/azure-webjobs-sdk-extensions)
