@@ -23,6 +23,8 @@ Template requires specific metadata files and folder structure so that [Azure Fu
 - [Script SDK](https://github.com/Azure/azure-webjobs-sdk-script/)
 - [Webjobs SDK Extensions](https://github.com/Azure/azure-webjobs-sdk-extensions)
 
+##Running the Tests 
+
 ## Contribute Code or Provide Feedback
 If you would like to become an active contributor to this project please follow the instructions provided in [Microsoft Azure Projects Contribution Guidelines](http://azure.github.com/guidelines.html).
 If you encounter any bugs with the templates please file an issue in the [Issues](https://github.com/Azure/azure-webjobs-sdk-templates/issues) section of the project.
