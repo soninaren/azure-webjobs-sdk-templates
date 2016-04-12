@@ -5,6 +5,6 @@ This repository contains the templates for the [Azure Functions Portal](https://
 ## Templates format
 
 ### Binding.Json
-This is a special file common across all templates located [here](Bindings/binding.json)
+This is a special file common across all templates located [here](Bindings/bindings.json)
 
 ### Running templates test
