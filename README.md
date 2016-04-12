@@ -8,7 +8,7 @@ Template requires specific metadata files and folder structure so that [Azure Fu
 
 - **Function.Json:** This file contains binding data specific to each template. It provides valid values for the possible settings on a binding.
 
-- **Code file:** Code file holds the actual code executed by the template. The name of the file depends on the Target language used by the template. For Javascript the name of the code file is index.js. For all the other languages this file is named run.
+- **Code file:** Code file holds the actual code executed by the template. The name of the file depends on the Target language used by the template. For Javascript the name of the code file is `index.js`. For all the other languages this file is named `run`.
 
 - **Metadata.Json:** UI related metadata specific to each template is present here. For e.g. Template Name, category.
 
