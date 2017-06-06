@@ -6,13 +6,9 @@ A template requires specific metadata files and folder structure so that [Azure 
 
 ### Files used by Portal
 - **Binding.json:** This is a metadata file for all the bindings and their possible configuration settings. It is common across all templates and is located [here](/Functions.Templates/Bindings/bindings.json). It also contains metadata for binding related UI Elements and the corresponding text.
-
 - **Function.json:** This file contains binding data specific to each template. It provides valid values for the possible settings on a binding.
-
 - **Code file:** Code file holds the actual code executed by the template. The name of the file depends on the Target language used by the template. For all the languages, the file name is `run`, followed by the file extension specific to the language. Additionally Javascript also supports `index.js` as the name of the code file.
-
 - **Metadata.json:** UI related metadata specific to each template is present here. For e.g. Template Name, category.
-
 - **Sample.dat:** Sample.dat contains sample input data for each template. The Run text box in the portal will be populated by the contents of the sample.dat file.
 
 ### Files used by Visual Studio (Only applicable to C# templates)
